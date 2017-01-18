@@ -20,3 +20,6 @@ class MinimumBalance(BankAccount):
         else:
             BankAccount.withdraw(self, amount)
 
+myAccount = BankAccount()
+myAccount.deposit(1000)
+print(myAccount.balance)
