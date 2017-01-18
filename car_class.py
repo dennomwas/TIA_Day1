@@ -29,3 +29,8 @@ class Car(object):
     elif moving_speed == 7:
       Car.speed = 77
     return self
+  
+porsche = Car ("porsche", "Mustang", "Saloon", "200")
+print(porsche)
+print(porsche.model)
+print(porsche.vehicle_type)
