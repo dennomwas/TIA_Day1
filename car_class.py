@@ -25,12 +25,12 @@ class Car(object):
 
   def drive(self, moving_speed):
     if moving_speed == 3:
-      Car.speed = 1000
+      Car.speed = 100
     elif moving_speed == 7:
       Car.speed = 77
     return self
   
-porsche = Car ("porsche", "Mustang", "Saloon", "200")
+porsche = Car ("porsche", "Mustang", "Saloon", "300")
 print(porsche)
 print(porsche.model)
 print(porsche.vehicle_type)
